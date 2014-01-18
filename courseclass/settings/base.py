@@ -40,6 +40,8 @@ INSTALLED_APPS = (
     'south',
     'registration',
     'easy_thumbnails',
+    'xadmin',
+    'crispy_forms',
 )
 
 MIDDLEWARE_CLASSES = (
