@@ -1,0 +1,10 @@
+Django==1.6.1
+South==0.8.4
+dj-database-url==0.2.2
+dj-static==0.0.5
+-e git://github.com/AGoodId/django-s3-collectstatic.git@baf18403f629762a63726e976848e98e79766201#egg=django_s3_collectstatic-dev
+django-toolbelt==0.0.1
+gunicorn==18.0
+psycopg2==2.5.2
+static==0.4
+wsgiref==0.1.2
