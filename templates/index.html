@@ -17,12 +17,14 @@
         <td>Files</td>
     </thead>
     <tbody>
+      {% for class in classes %}
       <tr>
-        <td>01/23/2014 8:00 pm</td>
-        <td>Ivey 2120</td>
-        <td>Class Introduction and Front-End Design</td>
+        <td>{{ class.date }}</td>
+        <td>{{ class.room }}</td>
+        <td><a href="{{ MEDIA_URL }}{{ class.outline }}">{{ class.title }}</a></td>
         <td>To be posted</td>
       </tr>
+      {% endfor %}
     </tbody>
   </table>
 </div>
